@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 const StartShopping = () => {
     return(
         <div>
-            <Button style={{ backgroundColor: 'light-gray', border: 'dark-gray', color: 'light-blue' }} variant="primary">
+            <Button className = "button" variant="primary">
                 Shop Now
             </Button>
         </div>
