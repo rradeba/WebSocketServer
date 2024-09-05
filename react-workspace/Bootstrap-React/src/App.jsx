@@ -5,9 +5,9 @@ import { Button } from 'react-bootstrap';
 const StartShopping = () => {
     return(
         <div>
-            <button variant="primary">
+            <Button variant="primary">
                 Shop Now
-            </button>
+            </Button>
         </div>
     )
 };
