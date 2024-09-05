@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Form Example</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <!-- Form title -->
+        <h2 class="mb-4">Column Registration Form</h2> 
+        
+        <!-- Form with two columns -->
+        <form class="row">
+            <!-- First column -->
+            <div class="col-12 col-md-4">
+                <label for="inlineFormInputName2" class="sr-only">Name</label>
+                <input type="text" class="form-control mb-2" id="inlineFormInputName2" placeholder="Name">
+
+                <label for="inlineFormInputGroupUsername2" class="sr-only">Username</label>
+                <input type="text" class="form-control mb-2" id="inlineFormInputGroupUsername2" placeholder="Username">
+            </div>
+            
+            <!-- Second column -->
+            <div class="col-12 col-md-4">
+                <label for="inlineFormInputPassword2" class="sr-only">Password</label>
+                <input type="password" class="form-control mb-2" id="inlineFormInputPassword2" placeholder="Password">
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                    <label class="form-check-label" for="inlineFormCheck">
+                        Check Here
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Centered Submit button -->
+            <div class="col-12 d-flex justify-content-left">
+                <button type="submit" class="btn btn-primary mb-2 mt-4">Submit</button>
+            </div>
+        </form>
+    </div>
+                
+
+
+
+    <div class="container-fluid mt-5">
+        <h2 class="mr-4 mb-4">In-line Registration Form</h2> 
+        <form class="form-inline">
+            <label for="inlineFormInputName2 " class = "m-2">Name: </label>
+            <input type="text" class="form-control mb-2" id="inlineFormInputName2" placeholder="John Smith">
+
+            <!--  Username input field -->
+            <label for="inlineFormInputGroupUsername2" class = "m-2">Username:</label>
+            <input type="text" class="form-control mb-2" id="inlineFormInputGroupUsername2" placeholder="Username">
+
+            <!-- Checkbox/label -->
+            <div class="form-check mb-2 m-3">
+                <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                <label class="form-check-label" for="inlineFormCheck">
+                    Check Here
+                </label>
+            </div>
+
+            <!-- Submit-->
+            <button type="submit" class="btn btn-primary m-3 mb-2">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+<div class="container-fluid mt-5">
+    <!-- Form title -->
+    <h2 class="mb-4">Stacked Registration Form</h2> 
+    
+    <!-- Form with two columns -->
+    <form class="row">
+        <!-- First column -->
+        <div class="col-12 col-md-6">
+            <label for="inlineFormInputName2" >Name:</label>
+            <input type="text" class="form-control mb-2" id="inlineFormInputName2" >
+
+            <label for="inlineFormInputGroupUsername2">Username:</label>
+            <input type="text" class="form-control mb-2" id="inlineFormInputGroupUsername2" >
+     
+            <label for="inlineFormInputPassword2" >Password:</label>
+            <input type="password" class="form-control mb-2" id="inlineFormInputPassword2" >
+
+            <div class="form-check mb-4 mt-3">
+                <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                <label class="form-check-label" for="inlineFormCheck">
+                    Check Here
+                </label>
+
+         <!-- Centered Submit button -->
+         <div class="d-flex justify-content-center mt-3">
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </div>
+
+        </div>
+        
+       
+    </form>
+
+
+
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Form-Control Registration Form</h2>
+        <form class="row g-3 needs-validation" novalidate>
+        
+            <div class="col-12 col-md-6">
+                <div class="form-floating mb-3">
+                    <label for="floatingEmail" class="text-secondary fw-bold fs-5">Email address:</label>
+                    <input type="email" class="form-control " id="floatingEmail" placeholder="name@example.com" required>
+                    <div id="emailHelp" class="text-secondary fw-light fs-sm mb-4 text-center">
+                    
+                    <div class="invalid-feedback">
+                        Please enter a valid email address.
+                    </div>
+                </div>
+    
+                <!-- Password Field with Floating Label -->
+                <div class="form-floating mb-3">
+                    <label for="floatingPassword" class="text-secondary fw-bold  fs-5">Password:</label>
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <div class="invalid-feedback">
+                        Please enter a valid password.
+                    </div>
+                </div>
+    
+                <!-- Submit Button Centered -->
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+           
+        
