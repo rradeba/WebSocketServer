@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { Button } from 'react-bootstrap'; 
-import App from './App.css';
+import './App.css';
 
 
 const StartShopping = () => {
