@@ -21,8 +21,9 @@ a:hover {
   border-radius: 8px;
   border: 2px solid black;
   margin: 15px; 
-  height: 50vh; 
-  width: 20vh;
+  margin-bottom: 10px; 
+  height: 100vh; 
+  width: auto;
   display: flex; 
   flex-direction: column; 
   align-items: center; 
@@ -46,7 +47,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin-bottom: 15px; 
+  
 }
 button:hover {
   border-color: #646cff;
