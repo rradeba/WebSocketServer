@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { Button, Container, Row, Col, Image} from 'react-bootstrap'; 
-import './App.css';
+import './HomePage.css';
 
 const StartShopping = () => {
     return(
