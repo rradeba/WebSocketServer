@@ -42,7 +42,7 @@ h1 {
   margin: 15px; 
 }
 
-button {
+.custom-button {
   border-radius: 8px;
   border: 2px solid black;
   padding: 0.6em 1.2em;
@@ -54,23 +54,11 @@ button {
   transition: border-color 0.25s;
   
 }
-button:hover {
+.custom-button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
+.custom-button:focus,
+.custom-button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
