@@ -1,11 +1,17 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import HomePage from './HomePage';  // Import your home page or other components
+import ErrorPage from './ErrorPage';  // Import your error page
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const App = () => {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+        <Route component={ErrorPage} /> 
+      </Switch>
+    </Router>
+  );
+};
+
+export default App;
