@@ -5,7 +5,7 @@ import './App.css';
 
 const StartShopping = () => {
     return(
-        <div class = "body">
+        <div class = "mody">
             <Button className = "custom-button" variant="primary">
                 Shop Now
             </Button>
