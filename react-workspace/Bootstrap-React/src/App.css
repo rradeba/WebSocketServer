@@ -42,7 +42,7 @@ h1 {
   margin: 15px; 
 }
 
-.custom-button {
+.create-button {
   border-radius: 8px;
   border: 2px solid black;
   padding: 0.6em 1.2em;
@@ -54,11 +54,11 @@ h1 {
   transition: border-color 0.25s;
   
 }
-.custom-button:hover {
+.create-button:hover {
   border-color: #646cff;
 }
-.custom-button:focus,
-.custom-button:focus-visible {
+.create-button:focus,
+.create-button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
