@@ -9,7 +9,7 @@ const StartShopping = () => {
             <div className = "card">
                 <h1>Crypto Market</h1>
                 <p>Find new crypto coins in our directory.</p>
-                <img className ="image " src="\assets\crypto.jpg" alt="" />
+                <img className ="image" src="\assets\crypto.jpg" alt="none" />
                 <Button className = "custom-button" variant="primary">
                     Shop Now
                 </Button>
