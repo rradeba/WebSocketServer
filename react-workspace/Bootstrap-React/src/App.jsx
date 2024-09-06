@@ -8,8 +8,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* Add other routes here */}
-        <Route path="*" element={<ErrorPage />} /> {/* This will catch all undefined routes */}
+        <Route path="*" element={<ErrorPage />} /> 
       </Routes>
     </Router>
   );
