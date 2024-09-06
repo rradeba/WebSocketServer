@@ -6,7 +6,7 @@ import './ErrorPage.css';
 const ErrorPage = () => {
     return (
         <div className="error-container Container"> 
-            <img class = "Row" src="\404.png" alt="404" />
+            <img class = "img Row" src="\404.png" alt="404" />
             <div class = "row">
                 <h1>404: Page Not Found</h1>
                 <p>Something went wrong or this page doesn't exist.</p>
