@@ -1,4 +1,4 @@
-from web_socket_server import WebSocketServer, socketio, app
+from web_socket_server import WebSocketServer, socketio
 from flask import render_template
 
 app = WebSocketServer().create_app()
